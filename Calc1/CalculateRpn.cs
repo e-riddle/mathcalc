@@ -16,6 +16,7 @@ namespace Calc1
             var errorMessage = string.Empty;
             var token = new Stack<double>();
 
+            //Looping
             foreach (var part in rpn)
             {
                 //Console.WriteLine(part);

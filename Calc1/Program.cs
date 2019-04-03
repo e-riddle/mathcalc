@@ -41,6 +41,7 @@ namespace Calc1
 
             var input = ParseInputString(calcstring);
 
+
             //Create an Reverse Polish Notation (RPN) representation of the input string
             var shunt = ShuntYard.ShuntRpnModel(input);
             if (!string.IsNullOrEmpty(shunt.Item2))
